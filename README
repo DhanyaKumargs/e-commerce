@@ -1,0 +1,5 @@
+# run this command to create docker image
+docker build -t e-commerce .
+
+# then run this command to run the Docker container
+docker run -p 8080:8080 e-commerce
